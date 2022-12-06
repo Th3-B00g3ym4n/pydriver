@@ -13,10 +13,13 @@ pydriver.data.headers = {}
 
 pydriver.send("https://google.com/")
 
+#prints site content
 print(pydriver.response.content)
+# prints status
+print(pydriver.response.status)
 ```
 
 ## installation
 
-download zip, extract, and put in your 
-**/Site-Packages**
+download the zip, extract it, and put in your 
+**AppData/Local/Programs/Python/Lib/Site-Packages**
