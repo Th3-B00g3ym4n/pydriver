@@ -32,5 +32,5 @@ def send(url):
       response.status = s
 
       
-
+__version__ = 'dev'
 
